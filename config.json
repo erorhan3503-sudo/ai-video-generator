@@ -1,0 +1,30 @@
+{
+  "input": {
+    "image_path": "input/resim.jpg",
+    "audio_path": "input/sarki.mp3",
+    "prompt": "a person walking in a beautiful park on a sunny day"
+  },
+  "video_settings": {
+    "duration_seconds": 6,
+    "fps": 24,
+    "num_frames": 24,
+    "width": 576,
+    "height": 576
+  },
+  "output": {
+    "video_output": "output/video_temp.mp4",
+    "final_output": "output/final_video.mp4"
+  },
+  "face_swap": {
+    "enabled": false,
+    "source_face": "input/yuz.jpg",
+    "target_video": "output/video_temp.mp4"
+  },
+  "prompts": [
+    "a person walking in a beautiful garden",
+    "a person sitting in a cozy room",
+    "a person enjoying nature",
+    "a person dancing",
+    "a person standing in the sunset"
+  ]
+}
